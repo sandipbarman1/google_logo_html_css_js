@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salow Studios</title>
+</head>
+<style>
+    .google {
+        position: relative;
+        border-top: 30px solid #ca4335;
+        border-right: 30px solid #4285f4;
+        border-bottom: 30px solid #34a853;
+        border-left: 30px solid #fbbc05;
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+        background-color: #23272e;
+    }
+    .google::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: -27px; 
+        transform: translateY(-50%);
+        width: 72px;
+        height: 30px;
+        background: #4285f4;
+    }
+    .google::after {
+        content: "";
+        position: absolute;
+        border-top: 60px solid transparent;
+        border-right: 60px solid #23272e;
+        top: -30px;
+        right: -30px;
+    }
+</style>
+<body>
+    <h1>Google Symbole</h1>
+    <div class="google"></div>
+</body>
+</html>
